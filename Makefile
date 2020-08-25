@@ -1,4 +1,5 @@
 include variables.mk
+include go.mk
 
 .PHONY: update
 
