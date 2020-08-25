@@ -1,3 +1,5 @@
+include variables.mk
+
 .PHONY: update
 
 all: update
