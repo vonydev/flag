@@ -1,4 +1,3 @@
-[![Docker](https://badgen.net/badge/jnovack/flag/blue?icon=docker)](https://hub.docker.com/r/jnovack/flag)
 [![Github](https://badgen.net/badge/jnovack/flag/purple?icon=github)](https://github.com/jnovack/flag)
 [![Build Status](https://github.com/jnovack/flag/workflows/main/badge.svg)](https://github.com/jnovack/flag/actions)
 [![GoDoc](https://godoc.org/github.com/jnovack/flag?status.svg)](http://godoc.org/github.com/jnovack/flag)
