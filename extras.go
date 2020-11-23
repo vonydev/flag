@@ -10,7 +10,7 @@ import (
 	"strings"
 )
 
-// EnvironmentPrefix defines a string that will be implicitely prefixed to a
+// EnvironmentPrefix defines a string that will be implicitly prefixed to a
 // flag name before looking it up in the environment variables.
 var EnvironmentPrefix = ""
 
