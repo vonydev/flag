@@ -1,3 +1,10 @@
+[![Docker](https://badgen.net/badge/jnovack/flag/blue?icon=docker)](https://hub.docker.com/r/jnovack/flag)
+[![Github](https://badgen.net/badge/jnovack/flag/purple?icon=github)](https://github.com/jnovack/flag)
+[![Build Status](https://github.com/jnovack/flag/workflows/main/badge.svg)](https://github.com/jnovack/flag/actions)
+[![GoDoc](https://godoc.org/github.com/jnovack/flag?status.svg)](http://godoc.org/github.com/jnovack/flag)
+[![Go Report](https://goreportcard.com/badge/github.com/jnovack/flag)](https://goreportcard.com/report/github.com/jnovack/flag)
+[![codecov](https://codecov.io/gh/jnovack/flag/branch/master/graph/badge.svg)](https://codecov.io/gh/jnovack/flag)
+
 # jnovack/flag
 
 **jnovack/flag** is a drop in replacement for Go's flag package with the
