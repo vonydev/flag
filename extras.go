@@ -151,11 +151,15 @@ func (f *FlagSet) ParseFile(path string) error {
 		m := f.formal
 		flag, alreadythere := m[name]
 		if !alreadythere {
-			if name == "help" || name == "h" { // special case for nice help message.
-				f.usage()
-				return ErrHelp
-			}
-			return f.failf("configuration variable provided but not defined: %s", name)
+			continue
+
+			/*
+				if name == "help" || name == "h" { // special case for nice help message.
+					f.usage()
+					return ErrHelp
+				}
+				return f.failf("configuration variable provided but not defined: %s", name)
+			*/
 		}
 
 		if fv, ok := flag.Value.(boolFlag); ok && fv.IsBoolFlag() { // special case: doesn't need an arg
