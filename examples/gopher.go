@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/jnovack/flag"
+	"github.com/vonydev/flag"
 )
 
 func main() {

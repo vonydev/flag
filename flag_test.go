@@ -16,7 +16,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/jnovack/flag"
+	. "github.com/vonydev/flag"
 )
 
 func boolString(s string) string {
