@@ -932,15 +932,14 @@ func (f *FlagSet) parseOne() (bool, error) {
 	m := f.formal
 	flag, alreadythere := m[name] // BUG
 	if !alreadythere {
+		if name == "help" || name == "h" { // special case for nice help message.
+			f.usage()
+			return false, ErrHelp
+		}
+
 		return false, nil
 
-		/*
-			if name == "help" || name == "h" { // special case for nice help message.
-				f.usage()
-				return false, ErrHelp
-			}
-			return false, f.failf("flag provided but not defined: -%s", name)
-		*/
+		// return false, f.failf("flag provided but not defined: -%s", name)
 	}
 
 	if fv, ok := flag.Value.(boolFlag); ok && fv.IsBoolFlag() { // special case: doesn't need an arg
